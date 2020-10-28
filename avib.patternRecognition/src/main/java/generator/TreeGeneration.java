@@ -19,16 +19,6 @@ public class TreeGeneration {
     private ArrayList<String> analyzedFactsList;
     private ArrayList<ASTMCore.ASTMSource.CompilationUnit> compilationUnitsList;
 
-    public static void main(String[] args) throws UnsupportedLanguageException, IOException {
-        String inputFolder = "/media/files/ProyectoDiseno/Analyzer/avib.analyzer.analyzer/src/main/java/";
-        String classPath = "/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar";
-        TreeGeneration astGenerate = new TreeGeneration();
-        astGenerate.InitGenerator(inputFolder, classPath, Language.JAVA);
-        astGenerate.AnalyzeFacts();
-        System.out.println(astGenerate.AnalyzedFacts());
-        astGenerate.ReleaseGenerator();
-    }
-
     public void InitGenerator(String inputFolder, String classPath, Language language) throws UnsupportedLanguageException {
         MapperFactory factory = new MapperFactory();
         this.inputPath = inputFolder;
