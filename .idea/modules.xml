@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/avib.patternRecognition/avib.patternRecognition.iml" filepath="$PROJECT_DIR$/avib.patternRecognition/avib.patternRecognition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patternRecognition/avibPatternRecognition.iml" filepath="$PROJECT_DIR$/patternRecognition/avibPatternRecognition.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/patternRecognition.iml" filepath="$PROJECT_DIR$/.idea/patternRecognition.iml" />
     </modules>
   </component>
