@@ -85,39 +85,17 @@ public class TreeGeneration {
         ArrayList<ASTMCore.ASTMSource.CompilationUnit> units = mapper.getGastCompilationUnit(sourcePath);
         for (CompilationUnit unit : units) {
             compilationUnitsList.add(unit);
-            analyzedFactsList.add(json.toJson(unit).replaceAll("null,", "")); //***
-            //analyzedFactsList.add(genson.serialize(unit));
+            //analyzedFactsList.add(json.toJson(unit).replaceAll("null,", "")); //***
+            analyzedFactsList.add(genson.serialize(unit));
         }
-    }
-
-    public ArrayList<CompilationUnit> getCompilationUnitsListFromFile(String path, String filename) throws  IOException{
-        String AST = readASTfile(path, filename);
-        Gson json = new Gson();
-        Genson genson = new GensonBuilder()
-                .useClassMetadata(true)
-                .useRuntimeType(true)
-                .useConstructorWithArguments(true)
-                .create();
-        return genson.deserialize(AST, new GenericType<ArrayList<CompilationUnit>>() {});
-    }
-
-    public void saveAnalyzedCode(String path, String filename) throws  IOException{
-        String dir = path+filename+".json";
-        FileWriter fw = new FileWriter(dir);
-        fw.write(analyzedFactsList.toString());
-        fw.close();
-        System.out.println("**** AST del patron de programación: "+filename+ " creado correctamente. ****");
-    }
-
-    private String readASTfile(String path, String filename) throws IOException{
-        String dir = path+filename+".json";
-        File f = new File(dir);
-        Scanner myReader = new Scanner(f);
-        return myReader.nextLine();
     }
 
     public String AnalyzedFacts() {
         return analyzedFactsList.toString();
+    }
+
+    public ArrayList<String> getAnalyzedFactsList() {
+        return analyzedFactsList;
     }
 
     public ArrayList<CompilationUnit> getCompilationUnitsList() {
