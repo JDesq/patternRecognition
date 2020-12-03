@@ -26,7 +26,7 @@ public class TreeManager {
         FileWriter fw = new FileWriter(dir);
         fw.write(ASTjson);
         fw.close();
-        System.out.println("**** AST del patron de programación: "+filename+ " creado correctamente. ****");
+        System.out.println("**** Save AST pattern: "+filename+ ", save succesfull. ****");
     }
 
     private String readASTfile(String path, String filename) throws IOException{

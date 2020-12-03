@@ -24,14 +24,15 @@ public class PatternRecognizer {
         TreeGeneration astGenerate = new TreeGeneration();
         TreeManager astManager = new TreeManager();
 
-        ArrayList<String> dbView = astManager.GetDBview();
+        //ArrayList<String> dbView = astManager.GetDBview();
+        //System.out.println(dbView);
 
-        astGenerate.InitGenerator(inputFolder+dbView.get(0), classPath, Language.JAVA);
+        astGenerate.InitGenerator(inputFolder+"singleton", classPath, Language.JAVA);
+        astGenerate.AnalyzeFacts();
+        System.out.println(astGenerate.AnalyzedFacts());
+        astManager.saveAnalyzedCode(astGenerate.AnalyzedFacts(),"singleton");
 
-        System.out.println(astManager.getPatternFromDB(dbView.get(0)));
-        //System.out.println(astGenerate.AnalyzedFacts());
-
-        //astGenerate.saveAnalyzedCode(patternsPath,"singleton");
+        //System.out.println(astManager.getPatternFromDB(dbView.get(0)));
 
         //ArrayList<CompilationUnit> example, example2 = new ArrayList<>();
         //example = astManager.getFileFromDB(dbView.get(0));
