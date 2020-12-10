@@ -1,0 +1,774 @@
+[
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton"
+      }
+    ],
+    "className": "Singleton"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassicSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassicSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassicSingleton"
+      }
+    ],
+    "className": "ClassicSingleton"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "imp",
+        "type": "StackImp"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "Stack",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "Stack",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "isEmpty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "Stack"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "totalRejected",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "reportRejected",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      }
+    ],
+    "className": "StackHanoi"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "items",
+        "type": "Array"
+      },
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "total",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "o",
+            "type": "Object"
+          }
+        ],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "peek",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "empty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "StackMine"
+  },{
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton"
+      }
+    ],
+    "className": "Singleton"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassicSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassicSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassicSingleton"
+      }
+    ],
+    "className": "ClassicSingleton"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "imp",
+        "type": "StackImp"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "Stack",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "Stack",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "isEmpty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "Stack"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "totalRejected",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "reportRejected",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      }
+    ],
+    "className": "StackHanoi"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "items",
+        "type": "Array"
+      },
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "total",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "o",
+            "type": "Object"
+          }
+        ],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "peek",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "empty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "StackMine"
+  },{
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton"
+      }
+    ],
+    "className": "Singleton"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassicSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassicSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassicSingleton"
+      }
+    ],
+    "className": "ClassicSingleton"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "imp",
+        "type": "StackImp"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "Stack",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "Stack",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "isEmpty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "Stack"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "totalRejected",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "reportRejected",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      }
+    ],
+    "className": "StackHanoi"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "items",
+        "type": "Array"
+      },
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "total",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "o",
+            "type": "Object"
+          }
+        ],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "peek",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "empty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "StackMine"
+  }
+]

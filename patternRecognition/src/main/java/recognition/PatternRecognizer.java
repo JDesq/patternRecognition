@@ -42,3 +42,5 @@ public class PatternRecognizer {
     }
 
 }
+//evaluar tecnicas de computacion aproximada a nivel de memoria
+//requesitos para la implementacion
