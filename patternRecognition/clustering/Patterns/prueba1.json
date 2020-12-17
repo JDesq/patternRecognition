@@ -256,5 +256,3531 @@
       }
     ],
     "className": "StackMine"
-  }
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singletontest"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "codeSingleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singletontest",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singletontest"
+      }
+    ],
+    "className": "Singletontest"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassSingleton"
+      }
+    ],
+    "className": "ClassSingleton"
+  },
+    {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "codeSingleton2",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton2",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton2"
+      }
+    ],
+    "className": "Singleton2"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "Single"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "Single",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Single"
+      }
+    ],
+    "className": "Single"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singletonnn",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singletonnn"
+      }
+    ],
+    "className": "Singletonnn"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "Singleton3"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "Singleton3",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton3"
+      }
+    ],
+    "className": "Singleton3"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton"
+      }
+    ],
+    "className": "Singleton"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassicSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassicSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassicSingleton"
+      }
+    ],
+    "className": "ClassicSingleton"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "imp",
+        "type": "StackImp"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "Stack",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "Stack",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "isEmpty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "Stack"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "totalRejected",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "reportRejected",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      }
+    ],
+    "className": "StackHanoi"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "items",
+        "type": "Array"
+      },
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "total",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "o",
+            "type": "Object"
+          }
+        ],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "peek",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "empty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "StackMine"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singletontest"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "codeSingleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singletontest",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singletontest"
+      }
+    ],
+    "className": "Singletontest"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassSingleton"
+      }
+    ],
+    "className": "ClassSingleton"
+  },
+    {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "codeSingleton2",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton2",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton2"
+      }
+    ],
+    "className": "Singleton2"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "Single"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "Single",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Single"
+      }
+    ],
+    "className": "Single"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singletonnn",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singletonnn"
+      }
+    ],
+    "className": "Singletonnn"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "Singleton3"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "Singleton3",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton3"
+      }
+    ],
+    "className": "Singleton3"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton"
+      }
+    ],
+    "className": "Singleton"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassicSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassicSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassicSingleton"
+      }
+    ],
+    "className": "ClassicSingleton"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "imp",
+        "type": "StackImp"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "Stack",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "Stack",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "isEmpty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "Stack"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "totalRejected",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "reportRejected",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      }
+    ],
+    "className": "StackHanoi"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "items",
+        "type": "Array"
+      },
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "total",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "o",
+            "type": "Object"
+          }
+        ],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "peek",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "empty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "StackMine"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singletontest"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "codeSingleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singletontest",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singletontest"
+      }
+    ],
+    "className": "Singletontest"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassSingleton"
+      }
+    ],
+    "className": "ClassSingleton"
+  },
+    {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "codeSingleton2",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton2",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton2"
+      }
+    ],
+    "className": "Singleton2"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "Single"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "Single",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Single"
+      }
+    ],
+    "className": "Single"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singletonnn",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singletonnn"
+      }
+    ],
+    "className": "Singletonnn"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "Singleton3"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "Singleton3",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton3"
+      }
+    ],
+    "className": "Singleton3"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "totalRejected",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "reportRejected",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      }
+    ],
+    "className": "StackHanoi"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "items",
+        "type": "Array"
+      },
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "total",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "o",
+            "type": "Object"
+          }
+        ],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "peek",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "empty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "StackMine"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singletontest"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "codeSingleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singletontest",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singletontest"
+      }
+    ],
+    "className": "Singletontest"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassSingleton"
+      }
+    ],
+    "className": "ClassSingleton"
+  },
+    {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "codeSingleton2",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton2",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton2"
+      }
+    ],
+    "className": "Singleton2"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "Single"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "Single",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Single"
+      }
+    ],
+    "className": "Single"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singletonnn",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singletonnn"
+      }
+    ],
+    "className": "Singletonnn"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "Singleton3"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "Singleton3",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton3"
+      }
+    ],
+    "className": "Singleton3"
+  },
+  
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton"
+      }
+    ],
+    "className": "Singleton"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassicSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassicSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassicSingleton"
+      }
+    ],
+    "className": "ClassicSingleton"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton"
+      }
+    ],
+    "className": "Singleton"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassicSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassicSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassicSingleton"
+      }
+    ],
+    "className": "ClassicSingleton"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "imp",
+        "type": "StackImp"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "Stack",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "Stack",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "isEmpty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "Stack"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "totalRejected",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "reportRejected",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      }
+    ],
+    "className": "StackHanoi"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "items",
+        "type": "Array"
+      },
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "total",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "o",
+            "type": "Object"
+          }
+        ],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "peek",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "empty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "StackMine"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singletontest"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "codeSingleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singletontest",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singletontest"
+      }
+    ],
+    "className": "Singletontest"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassSingleton"
+      }
+    ],
+    "className": "ClassSingleton"
+  },
+    {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "codeSingleton2",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton2",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton2"
+      }
+    ],
+    "className": "Singleton2"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "Single"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "Single",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Single"
+      }
+    ],
+    "className": "Single"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singletonnn",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singletonnn"
+      }
+    ],
+    "className": "Singletonnn"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "Singleton3"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "Singleton3",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton3"
+      }
+    ],
+    "className": "Singleton3"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton"
+      }
+    ],
+    "className": "Singleton"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassicSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassicSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassicSingleton"
+      }
+    ],
+    "className": "ClassicSingleton"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "imp",
+        "type": "StackImp"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "Stack",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "Stack",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "isEmpty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "Stack"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "totalRejected",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "reportRejected",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      }
+    ],
+    "className": "StackHanoi"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "items",
+        "type": "Array"
+      },
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "total",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "o",
+            "type": "Object"
+          }
+        ],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "peek",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "empty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "StackMine"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singletontest"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "codeSingleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singletontest",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singletontest"
+      }
+    ],
+    "className": "Singletontest"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassSingleton"
+      }
+    ],
+    "className": "ClassSingleton"
+  },
+    {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "codeSingleton2",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton2",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton2"
+      }
+    ],
+    "className": "Singleton2"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "Single"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "Single",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Single"
+      }
+    ],
+    "className": "Single"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singletonnn",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singletonnn"
+      }
+    ],
+    "className": "Singletonnn"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "Singleton3"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "Singleton3",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton3"
+      }
+    ],
+    "className": "Singleton3"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton"
+      }
+    ],
+    "className": "Singleton"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassicSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassicSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassicSingleton"
+      }
+    ],
+    "className": "ClassicSingleton"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "imp",
+        "type": "StackImp"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "Stack",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "Stack",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "isEmpty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "Stack"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "totalRejected",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "reportRejected",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      }
+    ],
+    "className": "StackHanoi"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "items",
+        "type": "Array"
+      },
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "total",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "o",
+            "type": "Object"
+          }
+        ],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "peek",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "empty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "StackMine"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singletontest"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "codeSingleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singletontest",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singletontest"
+      }
+    ],
+    "className": "Singletontest"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassSingleton"
+      }
+    ],
+    "className": "ClassSingleton"
+  },
+    {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "codeSingleton2",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton2",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton2"
+      }
+    ],
+    "className": "Singleton2"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "Single"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "Single",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Single"
+      }
+    ],
+    "className": "Single"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singletonnn",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singletonnn"
+      }
+    ],
+    "className": "Singletonnn"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "Singleton3"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "Singleton3",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton3"
+      }
+    ],
+    "className": "Singleton3"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "totalRejected",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "StackHanoi",
+        "arguments": [
+          {
+            "name": "s",
+            "type": "String"
+          }
+        ],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "reportRejected",
+        "arguments": [],
+        "returnType": "int"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "in",
+            "type": "int"
+          }
+        ],
+        "returnType": "void"
+      }
+    ],
+    "className": "StackHanoi"
+  },
+  {
+    "atributes": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "items",
+        "type": "Array"
+      },
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "total",
+        "type": "int"
+      }
+    ],
+    "package": "bridge",
+    "methods": [
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "push",
+        "arguments": [
+          {
+            "name": "o",
+            "type": "Object"
+          }
+        ],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "peek",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "pop",
+        "arguments": [],
+        "returnType": "Object"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "empty",
+        "arguments": [],
+        "returnType": "boolean"
+      }
+    ],
+    "className": "StackMine"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singletontest"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "codeSingleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singletontest",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singletontest"
+      }
+    ],
+    "className": "Singletontest"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassSingleton"
+      }
+    ],
+    "className": "ClassSingleton"
+  },
+    {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "codeSingleton2",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton2",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton2"
+      }
+    ],
+    "className": "Singleton2"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "Single"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "Single",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Single"
+      }
+    ],
+    "className": "Single"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singletonnn",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singletonnn"
+      }
+    ],
+    "className": "Singletonnn"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "Singleton3"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "Singleton3",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton3"
+      }
+    ],
+    "className": "Singleton3"
+  },
+  
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "single_instance",
+        "type": "Singleton"
+      },
+      {
+        "modifier": [
+          "public"
+        ],
+        "name": "s",
+        "type": "String"
+      }
+    ],
+    "package": "code",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "private"
+        ],
+        "name": "Singleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "Singleton"
+      }
+    ],
+    "className": "Singleton"
+  },
+  {
+    "implements": [],
+    "atributes": [
+      {
+        "modifier": [
+          "private",
+          "static"
+        ],
+        "name": "instance",
+        "type": "ClassicSingleton"
+      }
+    ],
+    "package": "singleton",
+    "extends": [],
+    "methods": [
+      {
+        "modifier": [
+          "protected"
+        ],
+        "name": "ClassicSingleton",
+        "arguments": [],
+        "returnType": null
+      },
+      {
+        "modifier": [
+          "public",
+          "static"
+        ],
+        "name": "getInstance",
+        "arguments": [],
+        "returnType": "ClassicSingleton"
+      }
+    ],
+    "className": "ClassicSingleton"
+  }    
 ]
